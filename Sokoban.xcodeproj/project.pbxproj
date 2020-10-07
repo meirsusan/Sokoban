@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4EBBAD1252E590300C91B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBBAD0252E590300C91B19 /* AppDelegate.swift */; };
+		A4EBBAD3252E590300C91B19 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4EBBAD2252E590300C91B19 /* GameScene.sks */; };
+		A4EBBAD5252E590300C91B19 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4EBBAD4252E590300C91B19 /* Actions.sks */; };
+		A4EBBAD7252E590300C91B19 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBBAD6252E590300C91B19 /* GameScene.swift */; };
+		A4EBBAD9252E590300C91B19 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBBAD8252E590300C91B19 /* GameViewController.swift */; };
+		A4EBBADC252E590300C91B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EBBADA252E590300C91B19 /* Main.storyboard */; };
+		A4EBBADE252E590500C91B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EBBADD252E590500C91B19 /* Assets.xcassets */; };
+		A4EBBAE1252E590500C91B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EBBADF252E590500C91B19 /* LaunchScreen.storyboard */; };
+		A4EBBAEC252E590500C91B19 /* SokobanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBBAEB252E590500C91B19 /* SokobanTests.swift */; };
+		A4EBBAF7252E590500C91B19 /* SokobanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBBAF6252E590500C91B19 /* SokobanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4EBBAE8252E590500C91B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EBBAC5252E590300C91B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EBBACC252E590300C91B19;
+			remoteInfo = Sokoban;
+		};
+		A4EBBAF3252E590500C91B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EBBAC5252E590300C91B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EBBACC252E590300C91B19;
+			remoteInfo = Sokoban;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4EBBACD252E590300C91B19 /* Sokoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sokoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBBAD0252E590300C91B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4EBBAD2252E590300C91B19 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A4EBBAD4252E590300C91B19 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A4EBBAD6252E590300C91B19 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A4EBBAD8252E590300C91B19 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A4EBBADB252E590300C91B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4EBBADD252E590500C91B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4EBBAE0252E590500C91B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4EBBAE2252E590500C91B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EBBAE7252E590500C91B19 /* SokobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBBAEB252E590500C91B19 /* SokobanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanTests.swift; sourceTree = "<group>"; };
+		A4EBBAED252E590500C91B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EBBAF2252E590500C91B19 /* SokobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBBAF6252E590500C91B19 /* SokobanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanUITests.swift; sourceTree = "<group>"; };
+		A4EBBAF8252E590500C91B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EBBACA252E590300C91B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAE4252E590500C91B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAEF252E590500C91B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4EBBAC4252E590300C91B19 = {
+			isa = PBXGroup;
+			children = (
+				A4EBBACF252E590300C91B19 /* Sokoban */,
+				A4EBBAEA252E590500C91B19 /* SokobanTests */,
+				A4EBBAF5252E590500C91B19 /* SokobanUITests */,
+				A4EBBACE252E590300C91B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EBBACE252E590300C91B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBBACD252E590300C91B19 /* Sokoban.app */,
+				A4EBBAE7252E590500C91B19 /* SokobanTests.xctest */,
+				A4EBBAF2252E590500C91B19 /* SokobanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EBBACF252E590300C91B19 /* Sokoban */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBBAD0252E590300C91B19 /* AppDelegate.swift */,
+				A4EBBAD2252E590300C91B19 /* GameScene.sks */,
+				A4EBBAD4252E590300C91B19 /* Actions.sks */,
+				A4EBBAD6252E590300C91B19 /* GameScene.swift */,
+				A4EBBAD8252E590300C91B19 /* GameViewController.swift */,
+				A4EBBADA252E590300C91B19 /* Main.storyboard */,
+				A4EBBADD252E590500C91B19 /* Assets.xcassets */,
+				A4EBBADF252E590500C91B19 /* LaunchScreen.storyboard */,
+				A4EBBAE2252E590500C91B19 /* Info.plist */,
+			);
+			path = Sokoban;
+			sourceTree = "<group>";
+		};
+		A4EBBAEA252E590500C91B19 /* SokobanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBBAEB252E590500C91B19 /* SokobanTests.swift */,
+				A4EBBAED252E590500C91B19 /* Info.plist */,
+			);
+			path = SokobanTests;
+			sourceTree = "<group>";
+		};
+		A4EBBAF5252E590500C91B19 /* SokobanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBBAF6252E590500C91B19 /* SokobanUITests.swift */,
+				A4EBBAF8252E590500C91B19 /* Info.plist */,
+			);
+			path = SokobanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EBBACC252E590300C91B19 /* Sokoban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EBBAFB252E590500C91B19 /* Build configuration list for PBXNativeTarget "Sokoban" */;
+			buildPhases = (
+				A4EBBAC9252E590300C91B19 /* Sources */,
+				A4EBBACA252E590300C91B19 /* Frameworks */,
+				A4EBBACB252E590300C91B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sokoban;
+			productName = Sokoban;
+			productReference = A4EBBACD252E590300C91B19 /* Sokoban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4EBBAE6252E590500C91B19 /* SokobanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EBBAFE252E590500C91B19 /* Build configuration list for PBXNativeTarget "SokobanTests" */;
+			buildPhases = (
+				A4EBBAE3252E590500C91B19 /* Sources */,
+				A4EBBAE4252E590500C91B19 /* Frameworks */,
+				A4EBBAE5252E590500C91B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EBBAE9252E590500C91B19 /* PBXTargetDependency */,
+			);
+			name = SokobanTests;
+			productName = SokobanTests;
+			productReference = A4EBBAE7252E590500C91B19 /* SokobanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4EBBAF1252E590500C91B19 /* SokobanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EBBB01252E590500C91B19 /* Build configuration list for PBXNativeTarget "SokobanUITests" */;
+			buildPhases = (
+				A4EBBAEE252E590500C91B19 /* Sources */,
+				A4EBBAEF252E590500C91B19 /* Frameworks */,
+				A4EBBAF0252E590500C91B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EBBAF4252E590500C91B19 /* PBXTargetDependency */,
+			);
+			name = SokobanUITests;
+			productName = SokobanUITests;
+			productReference = A4EBBAF2252E590500C91B19 /* SokobanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EBBAC5252E590300C91B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Meir Susan";
+				TargetAttributes = {
+					A4EBBACC252E590300C91B19 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A4EBBAE6252E590500C91B19 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A4EBBACC252E590300C91B19;
+					};
+					A4EBBAF1252E590500C91B19 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A4EBBACC252E590300C91B19;
+					};
+				};
+			};
+			buildConfigurationList = A4EBBAC8252E590300C91B19 /* Build configuration list for PBXProject "Sokoban" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4EBBAC4252E590300C91B19;
+			productRefGroup = A4EBBACE252E590300C91B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EBBACC252E590300C91B19 /* Sokoban */,
+				A4EBBAE6252E590500C91B19 /* SokobanTests */,
+				A4EBBAF1252E590500C91B19 /* SokobanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EBBACB252E590300C91B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBBADC252E590300C91B19 /* Main.storyboard in Resources */,
+				A4EBBAD3252E590300C91B19 /* GameScene.sks in Resources */,
+				A4EBBADE252E590500C91B19 /* Assets.xcassets in Resources */,
+				A4EBBAE1252E590500C91B19 /* LaunchScreen.storyboard in Resources */,
+				A4EBBAD5252E590300C91B19 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAE5252E590500C91B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAF0252E590500C91B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EBBAC9252E590300C91B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBBAD7252E590300C91B19 /* GameScene.swift in Sources */,
+				A4EBBAD9252E590300C91B19 /* GameViewController.swift in Sources */,
+				A4EBBAD1252E590300C91B19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAE3252E590500C91B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBBAEC252E590500C91B19 /* SokobanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBBAEE252E590500C91B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBBAF7252E590500C91B19 /* SokobanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4EBBAE9252E590500C91B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EBBACC252E590300C91B19 /* Sokoban */;
+			targetProxy = A4EBBAE8252E590500C91B19 /* PBXContainerItemProxy */;
+		};
+		A4EBBAF4252E590500C91B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EBBACC252E590300C91B19 /* Sokoban */;
+			targetProxy = A4EBBAF3252E590500C91B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4EBBADA252E590300C91B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EBBADB252E590300C91B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4EBBADF252E590500C91B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EBBAE0252E590500C91B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4EBBAF9252E590500C91B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4EBBAFA252E590500C91B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4EBBAFC252E590500C91B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sokoban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.Sokoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4EBBAFD252E590500C91B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sokoban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.Sokoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4EBBAFF252E590500C91B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SokobanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.SokobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sokoban.app/Sokoban";
+			};
+			name = Debug;
+		};
+		A4EBBB00252E590500C91B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SokobanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.SokobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sokoban.app/Sokoban";
+			};
+			name = Release;
+		};
+		A4EBBB02252E590500C91B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SokobanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.SokobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sokoban;
+			};
+			name = Debug;
+		};
+		A4EBBB03252E590500C91B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SokobanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meir.SokobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sokoban;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EBBAC8252E590300C91B19 /* Build configuration list for PBXProject "Sokoban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBBAF9252E590500C91B19 /* Debug */,
+				A4EBBAFA252E590500C91B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EBBAFB252E590500C91B19 /* Build configuration list for PBXNativeTarget "Sokoban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBBAFC252E590500C91B19 /* Debug */,
+				A4EBBAFD252E590500C91B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EBBAFE252E590500C91B19 /* Build configuration list for PBXNativeTarget "SokobanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBBAFF252E590500C91B19 /* Debug */,
+				A4EBBB00252E590500C91B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EBBB01252E590500C91B19 /* Build configuration list for PBXNativeTarget "SokobanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBBB02252E590500C91B19 /* Debug */,
+				A4EBBB03252E590500C91B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4EBBAC5252E590300C91B19 /* Project object */;
+}
